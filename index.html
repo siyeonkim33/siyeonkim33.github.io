@@ -51,97 +51,146 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <!-- <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <h2>News</h2>
+      <tr>
+        <td style="padding:16px;width:100%;vertical-align:middle">
+          <p>My work </p>
+        </td>
+      </tr>
+      </tbody></table> -->
+
+      <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+      <h2>Selected Publications</h2>
+
+      <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="images/bolt3d.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+
+            </video></div>
+            <img src='images/bolt3d.jpg' width="160">
+          </div>
+          <script type="text/javascript">
+            function bolt3d_start() {
+              document.getElementById('bolt3d_image').style.opacity = "1";
+            }
+
+            function bolt3d_stop() {
+              document.getElementById('bolt3d_image').style.opacity = "0";
+            }
+            bolt3d_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://szymanowiczs.github.io/bolt3d">
+            <span class="papertitle">DefFusionNet: Learning Multimodal Goal Shapes for Deformable Object Manipulation via a Diffusion-based Probabilistic Model</span>
+          </a>
+          <br>
+          Bao Thach,
+          <strong>Siyeon Kim</strong>,
+          Britton Jordan,Mohanraj Shanthi, Tanner Watts, Shing-Hei Ho, James M. Ferguson, Tucker Hermans, Alan Kuntz
+          <br>
+          arxiv preprint, 2025
+          <br>
+          <!-- <a href="https://graphics.ewha.ac.kr/hwall2/">project page</a> -->
+          <!-- / -->
+          <a href="https://arxiv.org/abs/2506.18779">paper</a>
+          <p></p>
+        </td>
+      </tr>
+
+      <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="images/bolt3d.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+
+            </video></div>
+            <img src='images/bolt3d.jpg' width="160">
+          </div>
+          <script type="text/javascript">
+            function bolt3d_start() {
+              document.getElementById('bolt3d_image').style.opacity = "1";
+            }
+
+            function bolt3d_stop() {
+              document.getElementById('bolt3d_image').style.opacity = "0";
+            }
+            bolt3d_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://szymanowiczs.github.io/bolt3d">
+            <span class="papertitle">Synthesizing the Roughness of Textured Surfaces for an Encountered-type Haptic Display using Spatiotemporal Encoding</span>
+          </a>
+          <br>
+          <a href="https://yaesolkim.github.io/">Yaesol Kim</a>,
+          <strong>Siyeon Kim</strong>,
+          <a href="https://henzler.github.io">Uran Oh</a>
+          <a href="https://henzler.github.io">Young J. Kim</a>
+          <br>
+          <em>ToH</em>, 2020
+          <br>
+          <a href="https://graphics.ewha.ac.kr/hwall2/">project page</a>
+          •
+          <a href="https://graphics.ewha.ac.kr/hwall2/paper/ToH20_preprint.pdf">paper</a>
+          <p></p>
+        </td>
+      </tr>
+  <!-- 
+      <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='ever_image'>
+              <img src='images/ever_after.png' width=100%>
+            </div>
+            <img src='images/ever_before.png' width=100%>
+          </div>
+          <script type="text/javascript">
+            function ever_start() {
+              document.getElementById('ever_image').style.opacity = "1";
+            }
+
+            function ever_stop() {
+              document.getElementById('ever_image').style.opacity = "0";
+            }
+            ever_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://half-potato.gitlab.io/posts/ever/">
+        <span class="papertitle">EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
+  </span>
+          </a>
+          <br>
+          <a href="https://half-potato.gitlab.io/">Alexander Mai</a>, 
+          <a href="https://phogzone.com/">Peter Hedman</a>,
+          <a href="https://grgkopanas.github.io/">George Kopanas</a>,
+          <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+          <a href="https://scholar.google.com/citations?user=ozNFrecAAAAJ&hl=en">David Futschik</a>,
+          <a href="https://xharlie.github.io/">Qiangeng Xu</a>,
+          <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko Kuester</a>,
+          <strong>Jonathan T. Barron</strong>,
+          <a href="https://www.zhangyinda.com/">Yinda Zhang</a>
+          <br>
+          <em>ICCV</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+          <br>
+          <a href="https://half-potato.gitlab.io/posts/ever/">project page</a>
+          /
+          <a href="https://arxiv.org/abs/2410.01804">arXiv</a>
+          <p></p>
+          <p>
+          Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time.
+          </p>
+        </td>
+      </tr> -->
 
 
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bolt3d.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-
-          </video></div>
-          <img src='images/bolt3d.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function bolt3d_start() {
-            document.getElementById('bolt3d_image').style.opacity = "1";
-          }
-
-          function bolt3d_stop() {
-            document.getElementById('bolt3d_image').style.opacity = "0";
-          }
-          bolt3d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://szymanowiczs.github.io/bolt3d">
-          <span class="papertitle">Synthesizing the Roughness of Textured Surfaces for an Encountered-type Haptic Display using Spatiotemporal Encoding</span>
-        </a>
-        <br>
-        <a href="https://yaesolkim.github.io/">Yaesol Kim</a>,
-		    <strong>Siyeon Kim</strong>,
-        <a href="https://henzler.github.io">Uran Oh</a>
-        <a href="https://henzler.github.io">Young J. Kim</a>
-        <br>
-        <em>ToH</em>, 2020
-        <br>
-        <a href="https://graphics.ewha.ac.kr/hwall2/">project page</a>
-        /
-        <a href="https://graphics.ewha.ac.kr/hwall2/paper/ToH20_preprint.pdf">paper</a>
-        <p></p>
-      </td>
-    </tr>
-<!-- 
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='ever_image'>
-					  <img src='images/ever_after.png' width=100%>
-					</div>
-          <img src='images/ever_before.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function ever_start() {
-            document.getElementById('ever_image').style.opacity = "1";
-          }
-
-          function ever_stop() {
-            document.getElementById('ever_image').style.opacity = "0";
-          }
-          ever_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://half-potato.gitlab.io/posts/ever/">
-			<span class="papertitle">EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
-</span>
-        </a>
-        <br>
-				<a href="https://half-potato.gitlab.io/">Alexander Mai</a>, 
-				<a href="https://phogzone.com/">Peter Hedman</a>,
-				<a href="https://grgkopanas.github.io/">George Kopanas</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://scholar.google.com/citations?user=ozNFrecAAAAJ&hl=en">David Futschik</a>,
-        <a href="https://xharlie.github.io/">Qiangeng Xu</a>,
-        <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko Kuester</a>,
-				<strong>Jonathan T. Barron</strong>,
-        <a href="https://www.zhangyinda.com/">Yinda Zhang</a>
-				<br>
-        <em>ICCV</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-        <br>
-        <a href="https://half-potato.gitlab.io/posts/ever/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2410.01804">arXiv</a>
-        <p></p>
-        <p>
-				Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time.
-        </p>
-      </td>
-    </tr> -->
-
-
-    </table>
+      </table>
   </body>
 </html>
