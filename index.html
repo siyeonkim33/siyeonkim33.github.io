@@ -85,67 +85,30 @@
         </td>
       </tr>
 
-      <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()">
-        <td style="padding:16px;width:20%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-            <source src="images/bolt3d.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-
-            </video></div>
-            <img src='images/bolt3d.jpg' width="160">
-          </div>
-          <script type="text/javascript">
-            function bolt3d_start() {
-              document.getElementById('bolt3d_image').style.opacity = "1";
-            }
-
-            function bolt3d_stop() {
-              document.getElementById('bolt3d_image').style.opacity = "0";
-            }
-            bolt3d_stop()
-          </script>
+      <tr onmouseout="enc_haptics_stop()" onmouseover="enc_haptics_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <video width="160" src="images/encountered_haptics.mp4" type="video/mp4" muted autoplay loop></video>
         </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
-          <a href="https://arxiv.org/abs/2506.18779">
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://graphics.ewha.ac.kr/hwall2/paper/ToH20_preprint.pdf">
             <span class="papertitle">DefFusionNet: Learning Multimodal Goal Shapes for Deformable Object Manipulation via a Diffusion-based Probabilistic Model</span>
           </a>
           <br>
-          Bao Thach,
-          <strong>Siyeon Kim</strong>,
+          Bao Thach, <strong>Siyeon Kim</strong>,
           Britton Jordan,Mohanraj Shanthi, Tanner Watts, Shing-Hei Ho, James M. Ferguson, Tucker Hermans, Alan Kuntz.
           <br>
-          <em>arxiv preprint</em>, 2025.
+          <em>ArXiv preprint</em>, 2025.
           <br>
-          <!-- <a href="https://graphics.ewha.ac.kr/hwall2/">project page</a> -->
-          <!-- / -->
           <a href="https://arxiv.org/abs/2506.18779">paper</a>
           <p></p>
         </td>
       </tr>
 
-      <tr onmouseout="enc_haptics_start()" onmouseover="enc_haptics_start()">
-        <td style="padding:16px;width:20%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='enc_haptics'><video  width=100% height=100% muted autoplay loop>
-            <source src="images/encountered_haptics.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-
-            </video></div>
-            <img src='images/encountered-haptics.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function enc_haptics_start() {
-              document.getElementById('enc_haptics').style.opacity = "1";
-            }
-
-            function enc_haptics_stop() {
-              document.getElementById('enc_haptics').style.opacity = "0";
-            }
-            enc_haptics_stop()
-          </script>
+      <tr onmouseout="enc_haptics_stop()" onmouseover="enc_haptics_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <video width="160" src="images/encountered_haptics.mp4" type="video/mp4" muted autoplay loop></video>
         </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
+        <td style="padding:20px;width:75%;vertical-align:middle">
           <a href="https://graphics.ewha.ac.kr/hwall2/paper/ToH20_preprint.pdf">
             <span class="papertitle">Synthesizing the Roughness of Textured Surfaces for an Encountered-type Haptic Display using Spatiotemporal Encoding</span>
           </a>
@@ -162,6 +125,6 @@
           <p></p>
         </td>
       </tr>
-    </tbody></table>
+    </table>
   </body>
 </html>
