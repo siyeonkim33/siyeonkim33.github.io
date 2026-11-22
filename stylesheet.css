@@ -140,3 +140,9 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+/* Rounded thumbnails in the publication list */
+.thumb {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
